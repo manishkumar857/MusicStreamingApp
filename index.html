@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoundNest - Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   
+    <aside class="sidebar">
+
+        <div class="logo">
+            
+            <svg width="40" height="40" viewBox="0 0 100 100"
+                 xmlns="http://www.w3.org/2000/svg">
+                <circle cx="50" cy="50" r="46" fill="#1DB954"/>
+                <path d="M25 38 Q50 24 75 38"
+                      stroke="#121212" stroke-width="7"
+                      fill="none" stroke-linecap="round"/>
+                <path d="M30 50 Q50 39 70 50"
+                      stroke="#121212" stroke-width="6"
+                      fill="none" stroke-linecap="round"/>
+                <path d="M36 62 Q50 55 64 62"
+                      stroke="#121212" stroke-width="5"
+                      fill="none" stroke-linecap="round"/>
+            </svg>
+
+            <h2>SoundNest</h2>
+        </div>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Search</a>
+            <a href="#">Your Library</a>
+        </nav>
+
+        <div class="sidebar-bottom">
+            <p>Made for music lovers.</p>
+        </div>
+
+    </aside>
+
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <header>
+            <h2>Good evening </h2>
+            <button>Profile</button>
+        </header>
+
+        <section class="music-section">
+
+            <h2>Recently Played</h2>
+
+            <div class="music-container">
+
+                <div class="music-card">
+                    <div class="cover">🎵</div>
+                    <h3>Midnight Vibes</h3>
+                    <p>Chill Music</p>
+                </div>
+
+                <div class="music-card">
+                    <div class="cover">🎸</div>
+                    <h3>Rock Classics</h3>
+                    <p>Rock Collection</p>
+                </div>
+
+                <div class="music-card">
+                    <div class="cover">🎧</div>
+                    <h3>Daily Mix</h3>
+                    <p>Mixed Artists</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="music-section">
+
+            <h2>Made For You</h2>
+
+            <div class="music-container">
+
+                <div class="music-card">
+                    <div class="cover">🌙</div>
+                    <h3>Night Drive</h3>
+                    <p>Relaxing Songs</p>
+                </div>
+
+                <div class="music-card">
+                    <div class="cover">❤️</div>
+                    <h3>Love Hits</h3>
+                    <p>Romantic Collection</p>
+                </div>
+
+                <div class="music-card">
+                    <div class="cover">🔥</div>
+                    <h3>Top Hits</h3>
+                    <p>Trending Songs</p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Music Player -->
+    <footer class="player">
+
+        <div class="song-info">
+            <strong>Midnight Vibes</strong>
+            <p>Chill Music</p>
+        </div>
+
+        <div class="player-controls">
+            <button>⏮</button>
+            <button id="play-btn">▶</button>
+            <button>⏭</button>
+        </div>
+
+        <div class="progress">
+            <span>0:00</span>
+            <div class="progress-bar"></div>
+            <span>3:30</span>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
